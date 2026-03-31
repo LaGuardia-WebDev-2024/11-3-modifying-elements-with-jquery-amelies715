@@ -3,6 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <title>Unit 11 Lessons</title>
+    <style>
+      .butterfly {
+        color:brown;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+      }
+    </style>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -13,9 +20,19 @@
       src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Monarch_caterpillar_on_swan_plant_branchlet.jpg/960px-Monarch_caterpillar_on_swan_plant_branchlet.jpg?_=20080909013513"
       width="400"
     />
+    <a href="https://en.wikipedia.org/wiki/Butterfly">
+      Learn more
+    </a>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
+      $("h2").text("BEAUTIFUL BUTTERFLY");
+      $("p").html("the caterpillar has transformed");
+      $("p").css("color", "red");
+      $("h2").addClass("butterfly");
+      $("a").attr("href", "https://www.popsci.com/wp-content/uploads/2023/05/15/ButterflyFamilyTree.png?quality=85");
+      $("img").attr("src", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Monarch_caterpillar_on_swan_plant_branchlet.jpg/960px-Monarch_caterpillar_on_swan_plant_branchlet.jpg?_=20080909013513")
+       
 
 
       
